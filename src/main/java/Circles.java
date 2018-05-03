@@ -37,7 +37,7 @@ public class Circles extends Application {
 		c.setStroke(Color.SILVER);
 		p.getChildren().add(c);
 		//Draw the remaining circles
-		drawCircles(p, numCircles - 1, x + 5, y + 2, radius + 10);
+		drawCircles(p, numCircles - 1, x, y, radius + 10);
 
 	}
 }

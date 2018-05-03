@@ -4,7 +4,11 @@ public class RangeSum {
 
 		int[] array = {1, 2, 3, 4, 5, 6};
 
-		System.out.println(rangeSum(array, 0, array.length - 1));
+		System.out.println(sum(array));
+	}
+
+	public static int sum(int[] numbers){
+		return rangeSum(numbers, 0, numbers.length - 1);
 	}
 
 	public static int rangeSum(int[] numbers, int start, int end){
